@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="10" y1="10" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284c7" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Rounded Base Background -->
+  <rect x="8" y="8" width="104" height="104" rx="26" fill="url(#brandGrad)" filter="url(#shadow)" />
+  
+  <!-- Bridge Arch Structure ("Setu") -->
+  <path d="M 28 84 Q 60 48 92 84" stroke="white" stroke-width="4.5" stroke-linecap="round" fill="none" opacity="0.4" />
+  <path d="M 24 88 Q 60 56 96 88" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.2" />
+
+  <!-- Hand Sign Silhouette ("Sign") -->
+  <g transform="translate(36, 26)" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Palm & wrist -->
+    <path d="M 12 50 L 12 36 C 12 34 14 32 16 32 L 32 32 C 34 32 36 34 36 36 L 36 50" />
+    <!-- Index Finger -->
+    <path d="M 16 32 L 16 12 C 16 9.5 19 9.5 19 12 L 19 32" />
+    <!-- Middle Finger -->
+    <path d="M 20 32 L 20 8 C 20 5.5 24 5.5 24 8 L 24 32" />
+    <!-- Ring Finger -->
+    <path d="M 25 32 L 25 14 C 25 11.5 28 11.5 28 14 L 28 32" />
+    <!-- Pinky Finger -->
+    <path d="M 29 32 L 29 20 C 29 18 33 18 33 20 L 33 34" />
+    <!-- Thumb (Spread outward) -->
+    <path d="M 12 38 C 6 34 5 26 10 24 C 13 22 15 28 15 34" />
+    <!-- Pulse nodes on fingertips -->
+    <circle cx="17.5" cy="10" r="2.5" fill="#34d399" stroke="none" />
+    <circle cx="22" cy="6" r="2.5" fill="#38bdf8" stroke="none" />
+    <circle cx="26.5" cy="12" r="2.5" fill="#34d399" stroke="none" />
+    <circle cx="31" cy="18" r="2.5" fill="#38bdf8" stroke="none" />
+  </g>
+</svg>
